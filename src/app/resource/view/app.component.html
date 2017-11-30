@@ -1,0 +1,23 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav style="width: 200px;">
+    <div class="sidenav-content">
+      <h3>Menu</h3>
+    </div>
+  </mat-sidenav>
+
+  <mat-toolbar color="warn" role="header" fixed>
+    <a mat-button routerLink="/home" routerLinkActive="active">
+      <h1>¡Amigo Royale!</h1>
+    </a>
+    <a mat-icon-button routerLink="/cards" routerLinkActive="active">
+      <mat-icon aria-label="Muestra las cartas del juego">style</mat-icon>
+    </a>
+    <span class="fill-remaining-space"></span>
+    <button type="button" mat-icon-button (click)="sidenav.toggle()">
+      <mat-icon aria-label="Lista">list</mat-icon>
+    </button>
+  </mat-toolbar>
+
+  <router-outlet></router-outlet>
+
+</mat-sidenav-container>

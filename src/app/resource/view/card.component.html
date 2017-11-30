@@ -1,0 +1,5 @@
+<div class="cards-container">
+	<div class="card" *ngFor="let card of this.getCardsArray()">
+		<img src="{{ this.getImage(card.idName) }}" alt="{{ card.idName | titlecase }}" title="{{ card.idName | titlecase }}">
+	</div>
+</div>

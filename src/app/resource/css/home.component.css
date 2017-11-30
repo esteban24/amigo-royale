@@ -1,0 +1,22 @@
+.main-title {
+	margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+   	text-align: center;
+}
+
+.main-title > h3 {
+    font-size: 300%;
+    margin-bottom: 5px;
+}
+
+.main-title > small {
+    font-size: 150%;
+}
+
+.separator {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100px;
+}
