@@ -15,7 +15,6 @@ amigo-royale
 |  ├── app.po.ts
 |  └── tsconfig.e2e.json
 ├── karma.conf.js
-├── package-lock.json
 ├── package.json
 ├── protractor.conf.js
 ├── src
